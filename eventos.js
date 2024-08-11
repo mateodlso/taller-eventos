@@ -3,4 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     boton.onclick = function() {
         alert("Hola!");
     };
+
+    const contenedor = document.getElementById("contenedor");
+    contenedor.addEventListener("click", function() {
+        alert("Hola! Soy el div");
+    });
 });
